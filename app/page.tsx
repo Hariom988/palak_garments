@@ -557,7 +557,7 @@ export default function Home() {
 
             <div className="flex flex-wrap justify-between items-center gap-4 pt-8 border-t border-white/8">
               <p className="text-[13px] text-white/25">
-                © 2025 Ethoz. All rights reserved.
+                © 2026 Ethoz. All rights reserved.
               </p>
               <p className="text-[13px] text-white/25">
                 Crafted by{" "}
