@@ -174,13 +174,13 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-12 lg:gap-20 items-center">
               <div>
                 <h1 className="font-serif font-bold text-white leading-[1.08] tracking-tight mt-5 mb-8 text-[clamp(38px,5vw,72px)]">
-                  <span className="text-accent">Ethoz</span>
+                  <span className="text-accent">Ne'Ethoz</span>
                   <br />
                   Quality garments.
                 </h1>
                 <div className="space-y-5 text-[16px] leading-[1.85] text-white/60 max-w-xl">
                   <p>
-                    Ethoz is a professional clothing manufacturing company
+                    Ne'Ethoz is a professional clothing manufacturing company
                     dedicated to producing high-quality garments for established
                     and emerging fashion brands. With a strong focus on quality,
                     precision, and timely delivery, we partner with brands to
@@ -195,9 +195,9 @@ export default function AboutPage() {
                     ensuring quality at every stage of production.
                   </p>
                   <p>
-                    At Ethoz, we believe in building long-term partnerships with
-                    brands by delivering dependable manufacturing services and
-                    maintaining strict quality control.
+                    At Ne'Ethoz, we believe in building long-term partnerships
+                    with brands by delivering dependable manufacturing services
+                    and maintaining strict quality control.
                   </p>
                 </div>
               </div>
@@ -499,7 +499,8 @@ export default function AboutPage() {
               Ready to start manufacturing?
             </h2>
             <p className="text-[15px] md:text-[16px] text-white/70 mb-8 max-w-md mx-auto">
-              Reach out and let's discuss what Ethoz can build for your brand.
+              Reach out and let's discuss what Ne'Ethoz can build for your
+              brand.
             </p>
             <Link
               href="/#contact"

@@ -116,10 +116,10 @@ export default function Home() {
                 Garment Manufacturer
               </p>
               <h1 className="font-serif font-bold leading-[1.08] tracking-tight text-ink mb-6 text-[clamp(36px,4.8vw,68px)]">
-                ETHOZ
+                Ne'Ethoz
               </h1>
               <p className="text-[15px] leading-[1.85] text-muted mb-10 max-w-100">
-                Ethoz is a professional clothing manufacturer partnering with
+                Ne'Ethoz is a professional clothing manufacturer partnering with
                 fashion brands to deliver high-quality garments — on time, every
                 time.
               </p>
@@ -204,7 +204,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <Tag>About Ethoz</Tag>
+                <Tag>About Ne'Ethoz</Tag>
                 <h2 className="font-serif font-bold text-ink leading-[1.15] tracking-tight mt-5 mb-7 text-[clamp(30px,3.8vw,48px)]">
                   Built on quality.
                   <br />
@@ -212,7 +212,7 @@ export default function Home() {
                 </h2>
                 <div className="space-y-5 text-[15px] leading-[1.85] text-muted">
                   <p>
-                    Ethoz is a professional clothing manufacturing company
+                    Ne'Ethoz is a professional clothing manufacturing company
                     dedicated to producing high-quality garments for established
                     and emerging fashion brands. With a strong focus on quality,
                     precision, and timely delivery, we partner with brands to
@@ -224,7 +224,7 @@ export default function Home() {
                     standards and consistency across every order.
                   </p>
                   <p>
-                    At Ethoz, we believe in building long-term partnerships —
+                    At Ne'Ethoz, we believe in building long-term partnerships —
                     delivering dependable manufacturing services with strict
                     quality control at every stage.
                   </p>
@@ -238,7 +238,7 @@ export default function Home() {
               </div>
               <div className="md:mt-15">
                 <h3 className="text-[13px] font-semibold tracking-[.18em] uppercase text-muted mb-6">
-                  Why brands choose Ethoz
+                  Why brands choose Ne'Ethoz
                 </h3>
                 <div className="flex flex-col border border-subtle rounded-2xl overflow-hidden bg-surface">
                   {WHY.map((text, i) => (
@@ -251,7 +251,7 @@ export default function Home() {
                     trusts us."
                   </p>
                   <p className="mt-3 text-[13px] font-semibold text-ink">
-                    — Ethoz Team
+                    — Ne'Ethoz Team
                   </p>
                 </div>
               </div>
@@ -277,8 +277,8 @@ export default function Home() {
               manufacturing partner?
             </h2>
             <p className="text-[16px] leading-[1.8] text-white/70 mb-10 mx-auto max-w-120">
-              Ethoz helps brands produce high-quality garments at scale. Let's
-              build something great together.
+              Ne'Ethoz helps brands produce high-quality garments at scale.
+              Let's build something great together.
             </p>
             <CtaWhiteBtn onClick={() => go("contact")} />
           </div>

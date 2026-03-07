@@ -4,9 +4,9 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 export const metadata: Metadata = {
-  title: "Ethoz",
+  title: "Ne'Ethoz",
   description:
-    "Ethoz is a professional clothing manufacturing company dedicated to producing high-quality garments for established and emerging fashion brands. With a strong focus on quality, precision, and timely delivery, we partner with brands to turn their designs into finished products ready for the market.",
+    "Ne'Ethoz is a professional clothing manufacturing company dedicated to producing high-quality garments for established and emerging fashion brands. With a strong focus on quality, precision, and timely delivery, we partner with brands to turn their designs into finished products ready for the market.",
   icons: {
     icon: "/logo.ico",
   },

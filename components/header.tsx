@@ -133,11 +133,11 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2.5 no-underline">
             <img
               src="/logo.jpeg"
-              alt="Ethoz"
+              alt="Ne'Ethoz"
               className="w-9 h-9 rounded-lg object-cover"
             />
             <span className="text-[18px] font-bold tracking-tight text-ink font-sans">
-              Ethoz
+              Ne'Ethoz
             </span>
           </Link>
 
