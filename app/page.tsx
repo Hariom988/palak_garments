@@ -303,17 +303,17 @@ export default function Home() {
                     {
                       icon: "✉",
                       label: "Email",
-                      val: "info@ethoz.in",
+                      val: "info@ethoz.in | hkgupta@ethoz.in",
                       href: "mailto:info@ethoz.in",
                     },
                     {
                       icon: "☎",
                       label: "Phone",
-                      val: "+91 98100 09932",
+                      val: "+91 9810009932",
                       href: "tel:+919810009932",
                     },
                     {
-                      icon: "◎",
+                      icon: "⚲",
                       label: "Address",
                       val: "C-71 Sector 88 Noida 201305",
                       href: "https://maps.google.com/?q=34,+Block+C,+Sector+88,+Noida,+Uttar+Pradesh+201305",
