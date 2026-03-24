@@ -9,7 +9,7 @@ const SERVICES = [
   {
     title: "Bulk Clothing Production",
     desc: "Consistent, high-volume runs with strict quality checks built into every stage.",
-    img: "/image3.jpeg",
+    img: "/image3.png",
   },
   {
     title: "Private Label",
