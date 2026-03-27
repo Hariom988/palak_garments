@@ -41,12 +41,6 @@ const WHY = [
   "Timely delivery and professional process",
 ];
 
-const STATS = [
-  { value: "85,000+", label: "Units / Month", sub: "Garmenting" },
-  { value: "45,000+", label: "Units / Month", sub: "Printing" },
-  { value: "6", label: "Inhouse", sub: "Departments" },
-];
-
 function go(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 }
@@ -132,24 +126,6 @@ export default function Home() {
                   label="Partner With Us"
                   onClick={() => go("contact")}
                 />
-              </div>
-              <div className="flex items-stretch w-fit border border-subtle rounded-2xl overflow-hidden bg-surface/80 backdrop-blur-sm">
-                {STATS.map(({ value, label, sub }, i) => (
-                  <div
-                    key={sub}
-                    className={`flex flex-col justify-center px-5 py-4 ${i < STATS.length - 1 ? "border-r border-subtle" : ""}`}
-                  >
-                    <span className="font-serif font-bold text-[24px] leading-none text-ink">
-                      {value}
-                    </span>
-                    <span className="text-[11px] font-semibold text-accent mt-1 leading-tight">
-                      {sub}
-                    </span>
-                    <span className="text-[10px] text-muted leading-tight">
-                      {label}
-                    </span>
-                  </div>
-                ))}
               </div>
             </div>
 
