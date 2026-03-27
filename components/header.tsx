@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
 const NAV = [
@@ -124,10 +123,6 @@ export default function Header() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-          <span className="text-[18px] font-bold tracking-tight text-ink font-sans">
-            Palak Garmets
-          </span>
-
           <nav className="hidden md:flex items-center gap-8">
             {NAV.map((item) => (
               <button
