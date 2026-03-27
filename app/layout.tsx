@@ -4,12 +4,9 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 export const metadata: Metadata = {
-  title: "Ne'Ethoz",
+  title: "Palak Garmets",
   description:
-    "Ne'Ethoz is a professional clothing manufacturing company dedicated to producing high-quality garments for established and emerging fashion brands. With a strong focus on quality, precision, and timely delivery, we partner with brands to turn their designs into finished products ready for the market.",
-  icons: {
-    icon: "/logo.ico",
-  },
+    "Palak Garmets is a professional clothing manufacturing company dedicated to producing high-quality garments for established and emerging fashion brands. With a strong focus on quality, precision, and timely delivery, we partner with brands to turn their designs into finished products ready for the market.",
 };
 
 export default function RootLayout({

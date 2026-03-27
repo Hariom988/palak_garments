@@ -3,7 +3,6 @@
 const NAV = [
   { id: "home", label: "Home" },
   { id: "production", label: "Production" },
-  { id: "about", label: "About" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -18,13 +17,8 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/logo.jpeg"
-                alt="Ne'Ethoz"
-                className="w-7 h-7 rounded-md object-cover"
-              />
               <span className="text-[17px] font-bold text-white font-sans">
-                Ne'Ethoz
+                Palak Garmets
               </span>
             </div>
             <p className="text-[14px] leading-[1.7] text-white/40 max-w-60">
@@ -78,7 +72,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap justify-between items-center gap-4 pt-8 border-t border-white/8">
           <p className="text-[13px] text-white/25">
-            © 2026 Ne'Ethoz. All rights reserved.
+            © 2026 Palak Garmets. All rights reserved.
           </p>
           <p className="text-[13px] text-white/25">
             Crafted by{" "}

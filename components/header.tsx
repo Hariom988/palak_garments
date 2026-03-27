@@ -6,8 +6,6 @@ import { useRouter, usePathname } from "next/navigation";
 const NAV = [
   { label: "Home", href: "/" },
   { label: "Production", href: "/#production" },
-  { label: "Products", href: "/products" },
-  { label: "About", href: "/about" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -47,7 +45,6 @@ export default function Header() {
   const pathname = usePathname();
   const isHome = pathname === "/";
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => {
@@ -79,7 +76,6 @@ export default function Header() {
   useEffect(() => {
     setScrolled(false);
     if (!isHome) return;
-    // After navigating home, scroll to hash if present
     const hash = window.location.hash;
     if (hash) {
       const id = hash.replace("#", "");
@@ -96,12 +92,10 @@ export default function Header() {
 
     if (isHashLink) {
       if (isHome && sectionId) {
-        // Already on home — just scroll
         document
           .getElementById(sectionId)
           ?.scrollIntoView({ behavior: "smooth" });
       } else {
-        // Navigate to home with hash — Next.js router + scroll after load
         router.push(href);
       }
     } else {
@@ -130,16 +124,9 @@ export default function Header() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 no-underline">
-            <img
-              src="/logo.jpeg"
-              alt="Ne'Ethoz"
-              className="w-9 h-9 rounded-lg object-cover"
-            />
-            <span className="text-[18px] font-bold tracking-tight text-ink font-sans">
-              Ne'Ethoz
-            </span>
-          </Link>
+          <span className="text-[18px] font-bold tracking-tight text-ink font-sans">
+            Palak Garmets
+          </span>
 
           <nav className="hidden md:flex items-center gap-8">
             {NAV.map((item) => (

@@ -113,15 +113,15 @@ export default function Home() {
           >
             <div className="relative z-10 flex flex-col justify-center w-full lg:w-[48%] px-8 sm:px-12 lg:px-16 xl:px-24 py-16 lg:py-0">
               <p className="text-[11px] font-semibold tracking-[.25em] uppercase text-muted mb-5">
-                Garment Manufacturer
+                Garment Manufacturer and Whole Seller
               </p>
               <h1 className="font-serif font-bold leading-[1.08] tracking-tight text-ink mb-6 text-[clamp(36px,4.8vw,68px)]">
-                Ne'Ethoz
+                Palak Garmets
               </h1>
               <p className="text-[15px] leading-[1.85] text-muted mb-10 max-w-100">
-                Ne'Ethoz is a professional clothing manufacturer partnering with
-                fashion brands to deliver high-quality garments — on time, every
-                time.
+                Palak Garmets is a professional clothing manufacturer partnering
+                with fashion brands to deliver high-quality garments — on time,
+                every time.
               </p>
               <div className="flex flex-wrap gap-3 mb-10">
                 <PrimaryBtn
@@ -204,7 +204,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <Tag>About Ne'Ethoz</Tag>
+                <Tag>About Palak Garmets</Tag>
                 <h2 className="font-serif font-bold text-ink leading-[1.15] tracking-tight mt-5 mb-7 text-[clamp(30px,3.8vw,48px)]">
                   Built on quality.
                   <br />
@@ -212,11 +212,12 @@ export default function Home() {
                 </h2>
                 <div className="space-y-5 text-[15px] leading-[1.85] text-muted">
                   <p>
-                    Ne'Ethoz is a professional clothing manufacturing company
-                    dedicated to producing high-quality garments for established
-                    and emerging fashion brands. With a strong focus on quality,
-                    precision, and timely delivery, we partner with brands to
-                    turn designs into finished products ready for the market.
+                    Palak Garmets is a professional clothing manufacturing
+                    company dedicated to producing high-quality garments for
+                    established and emerging fashion brands. With a strong focus
+                    on quality, precision, and timely delivery, we partner with
+                    brands to turn designs into finished products ready for the
+                    market.
                   </p>
                   <p>
                     We work with multiple fashion labels, providing reliable
@@ -224,9 +225,9 @@ export default function Home() {
                     standards and consistency across every order.
                   </p>
                   <p>
-                    At Ne'Ethoz, we believe in building long-term partnerships —
-                    delivering dependable manufacturing services with strict
-                    quality control at every stage.
+                    At Palak Garmets, we believe in building long-term
+                    partnerships — delivering dependable manufacturing services
+                    with strict quality control at every stage.
                   </p>
                 </div>
                 <div className="mt-9">
@@ -238,7 +239,7 @@ export default function Home() {
               </div>
               <div className="md:mt-15">
                 <h3 className="text-[13px] font-semibold tracking-[.18em] uppercase text-muted mb-6">
-                  Why brands choose Ne'Ethoz
+                  Why brands choose Palak Garmets
                 </h3>
                 <div className="flex flex-col border border-subtle rounded-2xl overflow-hidden bg-surface">
                   {WHY.map((text, i) => (
@@ -251,7 +252,7 @@ export default function Home() {
                     trusts us."
                   </p>
                   <p className="mt-3 text-[13px] font-semibold text-ink">
-                    — Ne'Ethoz Team
+                    — Palak Garmets Team
                   </p>
                 </div>
               </div>
@@ -277,7 +278,7 @@ export default function Home() {
               manufacturing partner?
             </h2>
             <p className="text-[16px] leading-[1.8] text-white/70 mb-10 mx-auto max-w-120">
-              Ne'Ethoz helps brands produce high-quality garments at scale.
+              Palak Garmets helps brands produce high-quality garments at scale.
               Let's build something great together.
             </p>
             <CtaWhiteBtn onClick={() => go("contact")} />
@@ -301,22 +302,28 @@ export default function Home() {
                 <div className="flex flex-col gap-6">
                   {[
                     {
+                      icon: "⚲",
+                      label: "GST Number",
+                      val: "07BKHPP6947B1ZZ",
+                      href: "/",
+                    },
+                    {
                       icon: "✉",
                       label: "Email",
-                      val: "info@ethoz.in | hkgupta@ethoz.in",
-                      href: "mailto:info@ethoz.in",
+                      val: "info@palakgarments.in",
+                      href: "mailto:info@palakgarments.in",
                     },
                     {
                       icon: "☎",
                       label: "Phone",
-                      val: "+91 9810009932",
-                      href: "tel:+919810009932",
+                      val: "+91 9958784251",
+                      href: "tel:+919958784251",
                     },
                     {
                       icon: "⚲",
                       label: "Address",
-                      val: "C-71 Sector 88 Noida 201305",
-                      href: "https://maps.google.com/?q=34,+Block+C,+Sector+88,+Noida,+Uttar+Pradesh+201305",
+                      val: "No.901, Gali No 16, Main Lakpat Colony Part-2,Meethapur,Badarpur New Delhi-110044",
+                      href: "https://maps.app.goo.gl/Di8vKT7L1Ke8QAsUA",
                     },
                   ].map(({ icon, label, val, href }) => (
                     <a
